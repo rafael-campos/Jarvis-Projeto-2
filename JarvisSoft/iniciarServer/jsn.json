@@ -1,0 +1,466 @@
+{
+    "_type":"SearchResponse",
+    "queryContext":{
+       "originalQuery":"quem descobriu a america"
+    },
+    "webPages":{
+       "webSearchUrl":"https://www.bing.com/search?q=quem+descobriu+a+america",
+       "totalEstimatedMatches":587000000,
+       "value":[
+          {
+             "id":"https://api.bing.microsoft.com/api/v7/#WebPages.0",
+             "name":"Quem descobriu a América? - Escola Educação",
+             "url":"https://escolaeducacao.com.br/quem-descobriu-a-america/",
+             "isFamilyFriendly":true,
+             "displayUrl":"https://escolaeducacao.com.br/<b>quem-descobriu-a-america</b>",
+             "snippet":"Como Colombo descobriu a América. Com a expansão marítima, era de grande interesse europeu a descoberta de novos locais para colonizar e a extrair riquezas naturais, já com a importância do comércio. Além disso, as novas rotas comerciais para a índia, famosa naquele tempo por suas especiarias e ponto de comércio, eram o maior interesse na época.",
+             "deepLinks":[
+                {
+                   "name":"Estude Grátis",
+                   "url":"https://escolaeducacao.com.br/estude-gratis/"
+                },
+                {
+                   "name":"Professores",
+                   "url":"https://escolaeducacao.com.br/professores/"
+                },
+                {
+                   "name":"Projetos Educativos",
+                   "url":"https://escolaeducacao.com.br/professores/projetos-educativos/"
+                },
+                {
+                   "name":"Trabalhos Manuais",
+                   "url":"https://escolaeducacao.com.br/professores/trabalhos-manuais/"
+                },
+                {
+                   "name":"Cursos",
+                   "url":"https://escolaeducacao.com.br/estude-gratis/cursos/"
+                },
+                {
+                   "name":"Biologia",
+                   "url":"https://escolaeducacao.com.br/alunos/disciplinas/biologia/"
+                }
+             ],
+             "dateLastCrawled":"2021-07-29T20:43:00.0000000Z",
+             "language":"pt",
+             "isNavigational":false
+          },
+          {
+             "id":"https://api.bing.microsoft.com/api/v7/#WebPages.1",
+             "name":"Quem descobriu a América (de verdade)? - Francisco Gomes ...",
+             "url":"https://www.franciscogomesdasilva.com.br/quem-descobriu-a-america-de-verdade/",
+             "isFamilyFriendly":true,
+             "displayUrl":"https://www.franciscogomesdasilva.com.br/<b>quem-descobriu-a-america</b>-de-verdade",
+             "snippet":"No século 20, prevaleceu a teoria de que os primeiros humanos chegaram há cerca de 13 mil anos, atravessando a pé o estreito de Behring, entre a Ásia e as<b> Américas.</b> O planeta passava por uma era glacial, e o nível do mar estava 100 m abaixo do atual, deixando o estreito emerso por milênios.",
+             "dateLastCrawled":"2021-07-28T22:06:00.0000000Z",
+             "language":"pt",
+             "isNavigational":false
+          },
+          {
+             "id":"https://api.bing.microsoft.com/api/v7/#WebPages.2",
+             "contractualRules":[
+                {
+                   "_type":"ContractualRules/LicenseAttribution",
+                   "targetPropertyName":"snippet",
+                   "targetPropertyIndex":2,
+                   "mustBeCloseToContent":true,
+                   "license":{
+                      "name":"CC-BY-SA",
+                      "url":"http://creativecommons.org/licenses/by-sa/3.0/"
+                   },
+                   "licenseNotice":"Texto sob licença CC-BY-SA"
+                }
+             ],
+             "name":"Descobrimento da América – Wikipédia, a enciclopédia livre",
+             "url":"https://pt.wikipedia.org/wiki/Descobrimento_da_Am%C3%A9rica",
+             "isFamilyFriendly":true,
+             "displayUrl":"https://pt.wikipedia.org/wiki/<b>Descobri</b>mento_d<b>a_América</b>",
+             "snippet":"O chamado Descobrimento ou Descoberta da América, que se deu pela chegada da armada do navegador<b> Cristóvão Colombo</b> nas Bahamas em 12 de outubro de 1492 na tentativa de encontrar uma rota alternativa para as Índias, representa o início da colonização europeia do continente americano.",
+             "dateLastCrawled":"2021-08-01T07:07:00.0000000Z",
+             "language":"pt",
+             "isNavigational":false
+          },
+          {
+             "id":"https://api.bing.microsoft.com/api/v7/#WebPages.3",
+             "name":"Quem foi que descobriu a América? – Histórias da história",
+             "url":"http://mgar.com.br/blog/?p=178",
+             "isFamilyFriendly":true,
+             "displayUrl":"mgar.com.br/blog/?p=178",
+             "snippet":"Então, professora, podemos também dizer que<b> quem descobriu a América</b> foi o Waldseemüller.” “Foram feitas mil cópias dessa mapa e espalhadas por toda Europa. O nome<b> “América”</b> pegou.",
+             "dateLastCrawled":"2021-07-12T06:45:00.0000000Z",
+             "language":"pt",
+             "isNavigational":false
+          },
+          {
+             "id":"https://api.bing.microsoft.com/api/v7/#WebPages.4",
+             "name":"Não foi Colombo quem descobriu a América? Conheça a nova ...",
+             "url":"https://history.uol.com.br/noticias/nao-foi-colombo-quem-descobriu-america-conheca-nova-teoria-sobre-chegada-dos-europeus-ao",
+             "isFamilyFriendly":true,
+             "displayUrl":"https://<b>history</b>.uol.com.br/noticias/nao-foi-colombo-<b>quem</b>-<b>descobriu</b>-<b>america</b>-conheca...",
+             "snippet":"Entre essas informações consideradas incontestáveis, está o fato de o italiano<b> Cristóvão Colombo</b> ser o descobridor e conquistador do continente<b> americano.</b> Toda uma mitologia acompanha essa certeza, que poderia ser lançada ao mar com",
+             "dateLastCrawled":"2021-07-30T23:33:00.0000000Z",
+             "language":"pt",
+             "isNavigational":false
+          },
+          {
+             "id":"https://api.bing.microsoft.com/api/v7/#WebPages.5",
+             "name":"Descobrimento da América - Toda Matéria",
+             "url":"https://www.todamateria.com.br/descobrimento-da-america/",
+             "isFamilyFriendly":true,
+             "displayUrl":"https://www.todamateria.com.br/<b>descobri</b>mento-d<b>a-america</b>",
+             "snippet":"Chama-se Descobrimento da América a chegada e ocupação da América pelo navegador<b> Cristóvão Colombo</b> (1452-1516) em 12 de outubro de 1492. A expedição foi patrocinada pelos reis católicos de Espanha, Fernando de Aragão e Isabel de Castela.",
+             "dateLastCrawled":"2021-08-01T03:17:00.0000000Z",
+             "language":"pt",
+             "isNavigational":false
+          },
+          {
+             "id":"https://api.bing.microsoft.com/api/v7/#WebPages.6",
+             "name":"Descobrimento da América - InfoEscola",
+             "url":"https://www.infoescola.com/historia/descobrimento-da-america/",
+             "isFamilyFriendly":true,
+             "displayUrl":"https://www.infoescola.com/historia/<b>descobri</b>mento-d<b>a-america</b>",
+             "snippet":"<b>Cristóvão Colombo,</b> figura de suma importância na descoberta da América, nasceu em Gênova - província italiana da região de Ligúria –, no ano de 1451, pertencente a uma rica família de artesãos.",
+             "dateLastCrawled":"2021-07-31T16:00:00.0000000Z",
+             "language":"pt",
+             "isNavigational":false
+          },
+          {
+             "id":"https://api.bing.microsoft.com/api/v7/#WebPages.7",
+             "name":"Quem descobriu a América ? - Brainly.com.br",
+             "url":"https://brainly.com.br/tarefa/26427525",
+             "isFamilyFriendly":true,
+             "displayUrl":"https://brainly.com.br/tarefa/26427525",
+             "snippet":"Descobrimento ou Descoberta da América, que se deu pela chegada da armada do navegador Cristóvão Colombo nas Bahamas em 12 de outubro de 1492 na tentativa de achar uma rota alternativa para as Índias, representa o início da colonização europeia do continente americano.",
+             "dateLastCrawled":"2021-07-26T23:55:00.0000000Z",
+             "language":"pt",
+             "isNavigational":false
+          },
+          {
+             "id":"https://api.bing.microsoft.com/api/v7/#WebPages.8",
+             "name":"QUEM DESCOBRIU A AMERICA? - Brainly.com.br",
+             "url":"https://brainly.com.br/tarefa/46785317",
+             "isFamilyFriendly":true,
+             "displayUrl":"https://brainly.com.br/tarefa/46785317",
+             "snippet":"O chamado Descobrimento ou Descoberta da América, que se deu pela chegada da armada do navegador<b> Cristóvão Colombo</b> nas Bahamas em 12 de outubro de 1492 na tentativa de encontrar uma rota alternativa para as Índias, representa o início da colonização europeia do continente americano.",
+             "dateLastCrawled":"2021-07-29T18:47:00.0000000Z",
+             "language":"pt",
+             "isNavigational":false
+          }
+       ],
+       "someResultsRemoved":true
+    },
+    "entities":{
+       "value":[
+          {
+             "id":"https://api.bing.microsoft.com/api/v7/#Entities.0",
+             "contractualRules":[
+                {
+                   "_type":"ContractualRules/LicenseAttribution",
+                   "targetPropertyName":"description",
+                   "mustBeCloseToContent":true,
+                   "license":{
+                      "name":"CC-BY-SA",
+                      "url":"http://creativecommons.org/licenses/by-sa/3.0/"
+                   },
+                   "licenseNotice":"Texto sob licença CC-BY-SA"
+                },
+                {
+                   "_type":"ContractualRules/LinkAttribution",
+                   "targetPropertyName":"description",
+                   "mustBeCloseToContent":true,
+                   "text":"Wikipedia",
+                   "url":"http://pt.wikipedia.org/wiki/Descobrimento_da_Am%C3%A9rica"
+                },
+                {
+                   "_type":"ContractualRules/MediaAttribution",
+                   "targetPropertyName":"image",
+                   "mustBeCloseToContent":true,
+                   "url":"http://pt.wikipedia.org/wiki/Descobrimento_da_Am%C3%A9rica"
+                }
+             ],
+             "webSearchUrl":"https://www.bing.com/entityexplore?q=Descobrimento+da+Am%C3%A9rica&filters=sid:%224dde098a-959f-5e8e-fead-d82051f95702%22&elv=AXXfrEiqqD9r3GuelwApulpbb4TW8HcTu3nVohgOJlgDnWmsRt7IbXoSu9ajluv*GnvYj183UrusToPkLhlR6M!DQsys1MXSdbwzFc0LjCOm",
+             "name":"Descobrimento da América",
+             "image":{
+                "name":"Descobrimento da América",
+                "thumbnailUrl":"https://www.bing.com/th?id=AMMS_8ee832937fe5c85c8053e65b257b74ce&w=110&h=110&c=7&rs=1&qlt=80&cdv=1&pid=16.1",
+                "provider":[
+                   {
+                      "_type":"Organization",
+                      "url":"http://pt.wikipedia.org/wiki/Descobrimento_da_Am%C3%A9rica"
+                   }
+                ],
+                "hostPageUrl":"http://upload.wikimedia.org/wikipedia/commons/f/f5/The_arrival_of_Christopher_Columbus_to_America%2C_1492.jpg",
+                "width":110,
+                "height":110,
+                "sourceWidth":474,
+                "sourceHeight":233
+             },
+             "description":"O chamado Debro de 1492 na tentativa de encontrar uma rota alternativa para as Índias, representa o início da colonização europeia do contine098a-959f-5e8e-fead-d82051f95702"
+          }
+       ]
+    },
+    "images":{
+       "id":"https://api.bing.microsoft.com/api/v7/#Images",
+       "readLink":"https://api.bing.microsoft.com/api/v7/images/search?q=quem+descobriu+a+america&qpvt=quem+descobriu+a+america",
+       "webSearchUrl":"https://www.bing.com/images/search?q=quem+descobriu+a+america&qpvt=quem+descobriu+a+america",
+       "isFamilyFriendly":true,
+       "value":[
+          {
+             "webSeaw0Cw6YIFKoAHaD4&pid=Api":12,
+             "datePublished":"2020-10-07T04:04:00.0000000Z",
+             "contentUrl":"https://www.educacaoetransformacao.com://www.educacaoetransformacao.com.br/quem-descobriu-a-america/quem-descobriu-a-america-2/",
+             "width":1200,
+             "height":630,
+             "tSearch.py":14
+          }
+        ]
+    }
+}
+
+__________________________________________________________________________________________
+
+_________________________________________________________________________________________
+
+
+____________________________________________________________________________________________
+
+{
+   "kind":"youtube#searchListResponse",
+   "etag":"y5Nywa5NSZSGw3wyqEgnRqdBwrs",
+   "nextPageToken":"CAUQAA",
+   "regionCode":"BR",
+   "pageInfo":{
+      "totalResults":347393,
+      "resultsPerPage":5
+   },
+   "items":[
+      {
+         "kind":"youtube#searchResult",
+         "etag":"Bn5cjXIWwb_DFlBZhoVfgqbK07g",
+         "id":{
+            "kind":"youtube#playlist",
+            "playlistId":"PLN_30RIYFb80mITw5GZAx-XmxSBlxwWi5"
+         },
+         "snippet":{
+            "publishedAt":"2021-03-16T14:23:56Z",
+            "channelId":"UCcmV7Ku7-jN0Nrcd0_D2PUA",
+            "title":"BOLOS SIMPLES E FÁCIL [Aprenda como fazer bolo simples e rápido bem fácil]",
+            "description":"Como fazer bolo simples, Como fazer bolo de liquidificador, Como fazer bolo de cenoura, Bolo de cenoura com chocolate, Bolo fofinho, Bolo de liquidificador, ...",
+            "thumbnails":{
+               "default":{
+                  "url":"https://i.ytimg.com/vi/qg2EqHDyJGM/default.jpg",
+                  "width":120,
+                  "height":90
+               },
+               "medium":{
+                  "url":"https://i.ytimg.com/vi/qg2EqHDyJGM/mqdefault.jpg",
+                  "width":320,
+                  "height":180
+               },
+               "high":{
+                  "url":"https://i.ytimg.com/vi/qg2EqHDyJGM/hqdefault.jpg",
+                  "width":480,
+                  "height":360
+               }
+            },
+            "channelTitle":"Bora de receita",
+            "liveBroadcastContent":"none",
+            "publishTime":"2021-03-16T14:23:56Z"
+         }
+      },
+      {
+         "kind":"youtube#searchResult",
+         "etag":"bNgakGxSUiNzKdijJh_51cpUWjs",
+         "id":{
+            "kind":"youtube#playlist",
+            "playlistId":"PL0icRN68g7DBwBk0-o0RS5fnFvVU9Zg5K"
+         },
+         "snippet":{
+            "publishedAt":"2021-04-26T04:21:06Z",
+            "channelId":"UC86gJTVzuH0_Rum-3qVD-sA",
+            "title":"Como fazer um 
+bolo",
+            "description":"As 10 melhores ideias de decoração de bolos fáceis #ReidoGosto #TutoriaisGosto #Tutoriais ❖ Assine nosso 
+canal para não perder nenhum vídeo! Obrigado.",
+            "thumbnails":{
+               "default":{
+                  "url":"https://i.ytimg.com/vi/5Xk_otPhLmE/default.jpg",
+                  "width":120,
+                  "height":90
+               },
+               "medium":{
+                  "url":"https://i.ytimg.com/vi/5Xk_otPhLmE/mqdefault.jpg",
+                  "width":320,
+                  "height":180
+               },
+               "high":{
+                  "url":"https://i.ytimg.com/vi/5Xk_otPhLmE/hqdefault.jpg",
+                  "width":480,
+                  "height":360
+               }
+            },
+            "channelTitle":"Rei do 
+Gosto",
+            "liveBroadcastContent":"none",
+            "publishTime":"2021-04-26T04:21:06Z"
+         }
+      },
+      {
+         "kind":"youtube#searchResult",
+         "etag":"ttxKMt6WCsvREVfduX5k0C0E_ew",
+         "id":{
+            "kind":"youtube#playlist",
+            "playlistId":"PLB8w3e4sMYwD-q7aAQHogkhlVpxkFiJXP"
+         },
+         "snippet":{
+            "publishedAt":"2014-09-04T20:03:12Z",
+            "channelId":"UCPzMDb1cxioEs-hH2y-I4Cw",
+            "title":"Como fazer Bolo",
+            "description":"Descubra como fazer bolo de cenoura, bolo de chocolate e mais de 20 outros tipos de bolos com estes vídeos do especialista Guilherme Guzela.",
+            "thumbnails":{
+               "default":{
+                  "url":"https://i.ytimg.com/vi/mM7uh_Q3t9I/default.jpg",
+                  "width":120,
+                  "height":90
+               },
+               "medium":{
+                  "url":"https://i.ytimg.com/vi/mM7uh_Q3t9I/mqdefault.jpg",
+                  "width":320,
+                  "height":180
+               },
+               "high":{
+                  "url":"https://i.ytimg.com/vi/mM7uh_Q3t9I/hqdefault.jpg",
+                  "width":480,
+                  "height":360
+               }
+            },
+            "channelTitle":"ComoFaz",
+            "liveBroadcastContent":"none",
+            "publishTime":"2014-09-04T20:03:12Z"
+         }
+      },
+      {
+         "kind":"youtube#searchResult",
+         "etag":"3jBAIthViyjP7YkHiiJ-hHoIP38",
+         "id":{
+            "kind":"youtube#playlist",
+            "playlistId":"PL2G1ziO1ZyAKP_Sek6gxz_TsPX1vhBrkI"
+         },
+         "snippet":{
+            "publishedAt":"2019-06-19T00:43:42Z",
+            "channelId":"UC1AH070SJdrb-aXt1Nq9b1w",
+            "title":"Mix Como fazer um bolo com um kilo de trigo",
+            "description":"",
+            "thumbnails":{
+               "default":{
+                  "url":"https://i.ytimg.com/vi/mnx10nyTyFA/default.jpg",
+                  "width":120,
+                  "height":90
+               },
+               "medium":{
+                  "url":"https://i.ytimg.com/vi/mnx10nyTyFA/mqdefault.jpg",
+                  "width":320,
+                  "height":180
+               },
+               "high":{
+                  "url":"https://i.ytimg.com/vi/mnx10nyTyFA/hqdefault.jpg",
+                  "width":480,
+                  "height":360
+               }
+            },
+            "channelTitle":"Mirian Oliveira",
+            "liveBroadcastContent":"none",
+            "publishTime":"2019-06-19T00:43:42Z"
+         }
+      },
+      {
+         "kind":"youtube#searchResult",
+         "etag":"rpkx91kEQfGyhJ8ZecvkQw_QH9A",
+         "id":{
+            "kind":"youtube#playlist",
+            "playlistId":"PLQh-f5iSjFp66ckEGYhAmJD3vJoD_yfvY"
+         },
+         "snippet":{
+            "publishedAt":"2021-06-19T17:40:23Z",
+            "channelId":"UCYqLd-y4kS_92JfQKffmqZg",
+            "title":"Como fazer bolo Mole Passo a Passo",
+            "description":"As melhores receitas de bole mole estão aqui nesta playlist. bolo mole, receita de bolo, bolo de leite, bolo, receita de bolo mole, como fazer bolo mole, como ...",
+            "thumbnails":{
+               "default":{
+                  "url":"https://i.ytimg.com/vi/_KtCsWMXcOA/default.jpg",
+                  "width":120,
+                  "height":90
+               },
+               "medium":{
+                  "url":"https://i.ytimg.com/vi/_KtCsWMXcOA/mqdefault.jpg",
+                  "width":320,
+                  "height":180
+               },
+               "high":{
+                  "url":"https://i.ytimg.com/vi/_KtCsWMXcOA/hqdefault.jpg",
+                  "width":480,
+                  "height":360
+               }
+            },
+            "channelTitle":"Meu Doce Trabalho Elton Barbosa",
+            "liveBroadcastContent":"none",
+            "publishTime":"2021-06-19T17:40:23Z"
+         }
+      }
+   ]
+}
+
+___________________________________________________________________________________________________________
+
+
+
+
+________________________________________________________________________________________________________
+
+{
+   "kind":"youtube#playlistItem",
+   "etag":"GuUp-lrCIzV5wu8nWefG-c-xVrU",
+   "id":"UExCOHczZTRzTVl3RC1xN2FBUUhvZ2tobFZweGtGaUpYUC4wOTA3OTZBNzVEMTUzOTMy",
+   "snippet":{
+      "publishedAt":"2015-01-16T06:41:13Z",
+      "channelId":"UCPzMDb1cxioEs-hH2y-I4Cw",
+      "title":"Como fazer Bolo de Cenoura",
+      "description":"Aprenda a fazer um delicioso bolo de cenoura com calda de chocolate. Esse bolo é muito 
+         fácil e rápido de fazer, confira.\r\n\r\nGuilherme Guzela - http://www.ehgastronomia.com.br\r\nComo fazer Bolo - https://www.comofaz.com.br/guia/como-fazer-bolo",
+      "thumbnails":{
+         "default":{
+            "url":"https://i.ytimg.com/vi/mM7uh_Q3t9I/default.jpg",
+            "width":120,
+            "height":90
+         },
+         "medium":{
+            "url":"https://i.ytimg.com/vi/mM7uh_Q3t9I/mqdefault.jpg",
+            "width":320,
+            "height":180
+         },
+         "high":{
+            "url":"https://i.ytimg.com/vi/mM7uh_Q3t9I/hqdefault.jpg",
+            "width":480,
+            "height":360
+         },
+         "standard":{
+            "url":"https://i.ytimg.com/vi/mM7uh_Q3t9I/sddefault.jpg",
+            "width":640,
+            "height":480
+         },
+         "maxres":{
+            "url":"https://i.ytimg.com/vi/mM7uh_Q3t9I/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+         }
+      },
+      "channelTitle":"ComoFaz",
+      "playlistId":"PLB8w3e4sMYwD-q7aAQHogkhlVpxkFiJXP",
+      "position":0,
+      "resourceId":{
+         "kind":"youtube#video",
+         "videoId":"mM7uh_Q3t9I"
+      },
+      "videoOwnerChannelTitle":"ComoFaz",
+      "videoOwnerChannelId":"UCPzMDb1cxioEs-hH2y-I4Cw"
+   }
+}"PS D":\jarvisSoft\jarvis1.0>

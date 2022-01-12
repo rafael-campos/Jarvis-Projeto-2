@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetIpc">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetIpcResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetIpcResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAut">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAutResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSer">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetSerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insertPci">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="serial" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pci" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sk" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="iup" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insertPciResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="insertPciResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Vpci">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pci" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ipr" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VpciResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VpciResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetIpcSoapIn">
+    <wsdl:part name="parameters" element="tns:GetIpc" />
+  </wsdl:message>
+  <wsdl:message name="GetIpcSoapOut">
+    <wsdl:part name="parameters" element="tns:GetIpcResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAutSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAut" />
+  </wsdl:message>
+  <wsdl:message name="GetAutSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAutResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSerSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSer" />
+  </wsdl:message>
+  <wsdl:message name="GetSerSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSerResponse" />
+  </wsdl:message>
+  <wsdl:message name="insertPciSoapIn">
+    <wsdl:part name="parameters" element="tns:insertPci" />
+  </wsdl:message>
+  <wsdl:message name="insertPciSoapOut">
+    <wsdl:part name="parameters" element="tns:insertPciResponse" />
+  </wsdl:message>
+  <wsdl:message name="VpciSoapIn">
+    <wsdl:part name="parameters" element="tns:Vpci" />
+  </wsdl:message>
+  <wsdl:message name="VpciSoapOut">
+    <wsdl:part name="parameters" element="tns:VpciResponse" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldHttpGetIn" />
+  <wsdl:message name="HelloWorldHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetIpcHttpGetIn" />
+  <wsdl:message name="GetIpcHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAutHttpGetIn" />
+  <wsdl:message name="GetAutHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSerHttpGetIn" />
+  <wsdl:message name="GetSerHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="insertPciHttpGetIn">
+    <wsdl:part name="serial" type="s:string" />
+    <wsdl:part name="pci" type="s:string" />
+    <wsdl:part name="sk" type="s:string" />
+    <wsdl:part name="iup" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="insertPciHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="VpciHttpGetIn">
+    <wsdl:part name="pci" type="s:string" />
+    <wsdl:part name="ipr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="VpciHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldHttpPostIn" />
+  <wsdl:message name="HelloWorldHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetIpcHttpPostIn" />
+  <wsdl:message name="GetIpcHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAutHttpPostIn" />
+  <wsdl:message name="GetAutHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSerHttpPostIn" />
+  <wsdl:message name="GetSerHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="insertPciHttpPostIn">
+    <wsdl:part name="serial" type="s:string" />
+    <wsdl:part name="pci" type="s:string" />
+    <wsdl:part name="sk" type="s:string" />
+    <wsdl:part name="iup" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="insertPciHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="VpciHttpPostIn">
+    <wsdl:part name="pci" type="s:string" />
+    <wsdl:part name="ipr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="VpciHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="WebService1Soap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIpc">
+      <wsdl:input message="tns:GetIpcSoapIn" />
+      <wsdl:output message="tns:GetIpcSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAut">
+      <wsdl:input message="tns:GetAutSoapIn" />
+      <wsdl:output message="tns:GetAutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSer">
+      <wsdl:input message="tns:GetSerSoapIn" />
+      <wsdl:output message="tns:GetSerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="insertPci">
+      <wsdl:input message="tns:insertPciSoapIn" />
+      <wsdl:output message="tns:insertPciSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Vpci">
+      <wsdl:input message="tns:VpciSoapIn" />
+      <wsdl:output message="tns:VpciSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WebService1HttpGet">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldHttpGetIn" />
+      <wsdl:output message="tns:HelloWorldHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIpc">
+      <wsdl:input message="tns:GetIpcHttpGetIn" />
+      <wsdl:output message="tns:GetIpcHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAut">
+      <wsdl:input message="tns:GetAutHttpGetIn" />
+      <wsdl:output message="tns:GetAutHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSer">
+      <wsdl:input message="tns:GetSerHttpGetIn" />
+      <wsdl:output message="tns:GetSerHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="insertPci">
+      <wsdl:input message="tns:insertPciHttpGetIn" />
+      <wsdl:output message="tns:insertPciHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Vpci">
+      <wsdl:input message="tns:VpciHttpGetIn" />
+      <wsdl:output message="tns:VpciHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WebService1HttpPost">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldHttpPostIn" />
+      <wsdl:output message="tns:HelloWorldHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIpc">
+      <wsdl:input message="tns:GetIpcHttpPostIn" />
+      <wsdl:output message="tns:GetIpcHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAut">
+      <wsdl:input message="tns:GetAutHttpPostIn" />
+      <wsdl:output message="tns:GetAutHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSer">
+      <wsdl:input message="tns:GetSerHttpPostIn" />
+      <wsdl:output message="tns:GetSerHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="insertPci">
+      <wsdl:input message="tns:insertPciHttpPostIn" />
+      <wsdl:output message="tns:insertPciHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Vpci">
+      <wsdl:input message="tns:VpciHttpPostIn" />
+      <wsdl:output message="tns:VpciHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIpc">
+      <soap:operation soapAction="http://tempuri.org/GetIpc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAut">
+      <soap:operation soapAction="http://tempuri.org/GetAut" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSer">
+      <soap:operation soapAction="http://tempuri.org/GetSer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertPci">
+      <soap:operation soapAction="http://tempuri.org/insertPci" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Vpci">
+      <soap:operation soapAction="http://tempuri.org/Vpci" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIpc">
+      <soap12:operation soapAction="http://tempuri.org/GetIpc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAut">
+      <soap12:operation soapAction="http://tempuri.org/GetAut" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSer">
+      <soap12:operation soapAction="http://tempuri.org/GetSer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertPci">
+      <soap12:operation soapAction="http://tempuri.org/insertPci" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Vpci">
+      <soap12:operation soapAction="http://tempuri.org/Vpci" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1HttpGet" type="tns:WebService1HttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIpc">
+      <http:operation location="/GetIpc" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAut">
+      <http:operation location="/GetAut" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSer">
+      <http:operation location="/GetSer" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertPci">
+      <http:operation location="/insertPci" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Vpci">
+      <http:operation location="/Vpci" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1HttpPost" type="tns:WebService1HttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIpc">
+      <http:operation location="/GetIpc" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAut">
+      <http:operation location="/GetAut" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSer">
+      <http:operation location="/GetSer" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertPci">
+      <http:operation location="/insertPci" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Vpci">
+      <http:operation location="/Vpci" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService1">
+    <wsdl:port name="WebService1Soap" binding="tns:WebService1Soap">
+      <soap:address location="http://54.207.191.143/WebService1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1Soap12" binding="tns:WebService1Soap12">
+      <soap12:address location="http://54.207.191.143/WebService1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1HttpGet" binding="tns:WebService1HttpGet">
+      <http:address location="http://54.207.191.143/WebService1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1HttpPost" binding="tns:WebService1HttpPost">
+      <http:address location="http://54.207.191.143/WebService1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
