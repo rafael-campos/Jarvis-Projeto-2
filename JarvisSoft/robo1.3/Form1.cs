@@ -573,7 +573,7 @@ namespace robo1._3
         {
             try
             {
-                sintetizador2.SelectVoice("IVONA 2 Ricardo"); // First list all the voices of the pc with <listAvailableVoicesConfigurator>
+                sintetizador2.SelectVoice("IVONA 2 Ricardo");
                 sintetizador2.Volume = 90;
                 sintetizador2.SpeakProgress += new EventHandler<SpeakProgressEventArgs>(synthesizer_SpeakProgress2);
                 sintetizador2.SpeakCompleted += new EventHandler<SpeakCompletedEventArgs>(synthesizer_SpeakCompleted2);
@@ -761,7 +761,7 @@ namespace robo1._3
                     string lkw = i1.Replace("\"", "").Replace("public_url:", "");
                     
                     Console.WriteLine("KWemos:" + i1);
-                    linkWemos = lkw + "/SmFydmlzODA6MTIzNDU2";//i1.Replace("\"", "").Replace("public_url:", "");
+                    linkWemos = lkw;//i1.Replace("\"", "").Replace("public_url:", "");
                     Console.WriteLine("WEMOS:" + linkWemos);
                 }
                 catch

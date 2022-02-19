@@ -36,7 +36,7 @@ unsigned long previousTime = 0;
 const long timeoutTime = 2000;
 
 // Define Authentication
-const char* base64Encoding = "SmFydmlzODA6MTIzNDU2";
+const char* base64Encoding = "SmFydmlzODA6MTIzNDU2";//Jarvis80 senha:123456
 
 
 void setup() {
@@ -70,30 +70,24 @@ void setup() {
 }
 
 void loop(){
-  WiFiClient client = server.available();  // Listen for incoming clients
+  WiFiClient client = server.available();
 
-  if (client) {                             // If a new client connects,
+  if (client) {                             
     currentTime = millis();
     previousTime = currentTime;
-    Serial.println("Novo Cliente.");          // print a message out in the serial port
-    String currentLine = "";                // make a String to hold incoming data from the client
-    while (client.connected() && currentTime - previousTime <= timeoutTime) {  // loop while the client's connected
+    Serial.println("Novo Cliente.");         
+    String currentLine = "";               
+    while (client.connected() && currentTime - previousTime <= timeoutTime) { 
       currentTime = millis();
-      if (client.available()) {             // if there's bytes to read from the client,
-        char c = client.read();             // read a byte, then
-        Serial.write(c);                    // print it out the serial monitor
+      if (client.available()) {             
+        char c = client.read();             
+        Serial.write(c);                    
         header += c;
-        if (c == '\n') {                    // if the byte is a newline character
-          // if the current line is blank, you got two newline characters in a row.
-          // that's the end of the client HTTP request, so send a response:
-          if (currentLine.length() == 0) {
-            // check base64 encode for authentication
-            // Finding the right credentials
+        if (c == '\n') {                    
+          if (currentLine.length() == 0) {            
             if (header.indexOf(base64Encoding)>=0)
-            {
-            
-              // HTTP headers always start with a response code (e.g. HTTP/1.1 200 OK)
-              // and a content-type so the client knows what's coming, then a blank line:
+            {           
+              
               client.println("HTTP/1.1 200 OK");
               client.println("Content-type:text/html");
               client.println("Conexão: fechada");
@@ -152,8 +146,6 @@ void loop(){
               client.println("<!DOCTYPE html><html>");
               client.println("<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">");
               client.println("<link rel=\"icon\" href=\"data:,\">");
-              // CSS to style the on/off buttons 
-              // Feel free to change the background-color and font-size attributes to fit your preferences
               client.println("<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}");
               client.println(".button { background-color: #4CAF50; border: none; color: white; padding: 16px 40px;");
               client.println("text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}");
@@ -173,8 +165,7 @@ void loop(){
               } 
                  
               // para relê lampada 1 GPIO14/D5  
-              client.println("<p>GPIO14/D5 - State " + output2State + "</p>");
-              // If the output2State is off, it displays the ON button       
+              client.println("<p>GPIO14/D5 - State " + output2State + "</p>");    
               if (output2State=="off") {
                 client.println("<p><a href=\"/14/on\"><button class=\"button\">ON</button></a></p>");
               } else {
@@ -182,8 +173,7 @@ void loop(){
               }
 
               // para lampada 2 GPIO12/D6  
-              client.println("<p>GPIO12/D6 - State " + output3State + "</p>");
-              // If the output2State is off, it displays the ON button       
+              client.println("<p>GPIO12/D6 - State " + output3State + "</p>");       
               if (output3State=="off") {
                 client.println("<p><a href=\"/12/on\"><button class=\"button\">ON</button></a></p>");
               } else {
@@ -213,17 +203,14 @@ void loop(){
               client.println();
               client.println("<html>Authentication failed</html>");
             }
-          } else { // if you got a newline, then clear currentLine
+          } else {
             currentLine = "";
           }
-        } else if (c != '\r') {  // if you got anything else but a carriage return character,
-          currentLine += c;      // add it to the end of the currentLine
+        } else if (c != '\r') { 
+          currentLine += c;    
         }
       }
-    }
-    // Clear the header variable
     header = "";
-    // Close the connection
     client.stop();
     Serial.println("Client disconnected.");
     Serial.println("");
