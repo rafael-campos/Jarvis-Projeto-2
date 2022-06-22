@@ -1,0 +1,162 @@
+C:\Users\drian\source\repos\ServiceJarvis\bin\ServiceJarvis.dll.config
+C:\Users\drian\source\repos\ServiceJarvis\bin\ServiceJarvis.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\ServiceJarvis.pdb
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\csc.exe
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\csc.exe.config
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\csc.rsp
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\csi.exe
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\csi.exe.config
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\csi.rsp
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.AppContext.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Console.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.IO.Compression.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Net.Http.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Net.Sockets.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.ValueTuple.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Xml.XPath.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\vbc.exe
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\vbc.exe.config
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\vbc.rsp
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\VBCSCompiler.exe
+C:\Users\drian\source\repos\ServiceJarvis\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\drian\source\repos\ServiceJarvis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\drian\source\repos\ServiceJarvis\obj\Debug\ServiceJarvis.csproj.AssemblyReference.cache
+C:\Users\drian\source\repos\ServiceJarvis\obj\Debug\ServiceJarvis.csproj.CoreCompileInputs.cache
+C:\Users\drian\source\repos\ServiceJarvis\obj\Debug\ServiceJarvis.csproj.CopyComplete
+C:\Users\drian\source\repos\ServiceJarvis\obj\Debug\ServiceJarvis.dll
+C:\Users\drian\source\repos\ServiceJarvis\obj\Debug\ServiceJarvis.pdb
+C:\Users\drian\source\repos\ServiceJarvis\bin\x86\sqlite3.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\x64\sqlite3.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\Microsoft.Threading.Tasks.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\Microsoft.Win32.Registry.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\NAudio.Asio.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\NAudio.Core.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\NAudio.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\NAudio.Midi.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\NAudio.Wasapi.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\NAudio.WinForms.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\NAudio.WinMM.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\System.Security.AccessControl.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\System.Security.Principal.Windows.dll
+C:\Users\drian\source\repos\ServiceJarvis\bin\Microsoft.Threading.Tasks.xml
+C:\Users\drian\source\repos\ServiceJarvis\bin\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\drian\source\repos\ServiceJarvis\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\drian\source\repos\ServiceJarvis\bin\Microsoft.Win32.Registry.xml
+C:\Users\drian\source\repos\ServiceJarvis\bin\NAudio.xml
+C:\Users\drian\source\repos\ServiceJarvis\bin\System.Security.AccessControl.xml
+C:\Users\drian\source\repos\ServiceJarvis\bin\System.Security.Principal.Windows.xml
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\x86\sqlite3.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\x64\sqlite3.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\ServiceJarvis.dll.config
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\ServiceJarvis.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\ServiceJarvis.pdb
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\csc.exe
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\csc.exe.config
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\csc.rsp
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\csi.exe
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\csi.exe.config
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\csi.rsp
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.AppContext.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Console.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.IO.Compression.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Net.Http.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Net.Sockets.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.ValueTuple.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Xml.XPath.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\vbc.exe
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\vbc.exe.config
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\vbc.rsp
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\VBCSCompiler.exe
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\Microsoft.Threading.Tasks.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\Microsoft.Win32.Registry.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\NAudio.Asio.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\NAudio.Core.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\NAudio.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\NAudio.Midi.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\NAudio.Wasapi.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\NAudio.WinForms.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\NAudio.WinMM.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\System.Security.AccessControl.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\System.Security.Principal.Windows.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\Microsoft.Threading.Tasks.xml
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\Microsoft.Win32.Registry.xml
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\NAudio.xml
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\System.Security.AccessControl.xml
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\System.Security.Principal.Windows.xml
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\obj\Debug\ServiceJarvis.csproj.AssemblyReference.cache
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\obj\Debug\ServiceJarvis.csproj.CoreCompileInputs.cache
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\obj\Debug\ServiceJarvis.csproj.CopyComplete
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\obj\Debug\ServiceJarvis.dll
+C:\Users\drian\OneDrive\Área de Trabalho\serviceJarvis\obj\Debug\ServiceJarvis.pdb

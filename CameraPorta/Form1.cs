@@ -538,21 +538,32 @@ namespace testeFormFacRecog
             {
                 string jsonFilePath = "tunnels.json";
                 string json = File.ReadAllText(jsonFilePath);
-                string[] subsJson = json.Split(',');
-                string i1 = subsJson[2];
+                //Console.WriteLine("Json Tunels: " + json);
 
-                linkWemos = i1.Replace("\"", "").Replace("public_url:", "");
-                Console.WriteLine(linkWemos);
+                string[] subsJson = json.Split(',');
+
+                foreach (string j in subsJson)
+                {
+                    if (j.Contains("https:"))
+                    {
+                        string[] lk = j.Split(new[] { "public_url\":\"" }, StringSplitOptions.None);
+                        string lkWemos = lk[1].Replace("\"", "");
+
+                        Console.WriteLine("Link WEMOS: " + lkWemos);
+                        linkWemos = lkWemos;
+                    }
+                    //Console.WriteLine(j);
+                }
             }
             catch
             {
                 MessageBox.Show("Não foi possivel obter o link publico Ngrok");
             }
 
-            Process cmd01 = new Process();
-            cmd01.StartInfo.FileName = "sendImg\\verify_if_family_img.py";
-            cmd01.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
-            cmd01.Start();
+            //Process cmd01 = new Process();
+            //cmd01.StartInfo.FileName = "sendImg\\verify_if_family_img.py";
+            //cmd01.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+            //cmd01.Start();
 
             filter = new FilterInfoCollection(FilterCategory.VideoInputDevice);
             foreach (FilterInfo device in filter)
@@ -633,9 +644,9 @@ namespace testeFormFacRecog
 
             var CurrentDirectory = Directory.GetCurrentDirectory();
             String path = CurrentDirectory + @"\sendImg\";
-
             var startInfo = new ProcessStartInfo("verify_if_family_img.py");
             startInfo.WorkingDirectory = path;
+            startInfo.WindowStyle = ProcessWindowStyle.Hidden;
             Process.Start(startInfo);
 
 

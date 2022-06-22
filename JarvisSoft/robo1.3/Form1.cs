@@ -629,16 +629,24 @@ namespace robo1._3
         //Iniciar servidor
         private bool iniciaServ()
         {
-            //https://42c1-52-67-118-77.ngrok.io/b5554efe14d4c89f59869d6c33c8e9410fe94802268b43f807/?hub.verify_token=1144&hub.challenge=OK%20MANO&img=nao&urlo=https://teste.teste
-            string ret = GetString("https://ebc4-52-67-118-77.ngrok.io/b5554efe14d4c89f59869d6c33c8e9410fe94802268b43f807/?hub.verify_token=1144&hub.challenge=OK%20MANO&img=nao&urlo=" + linkWemos);
-            if (ret.Contains("https"))
+            //https://b72e-52-67-118-77.ngrok.io/b5554efe14d4c89f59869d6c33c8e9410fe94802268b43f807/?hub.verify_token=1144&hub.challenge=OK%20MANO&img=nao&urlo=https://teste.teste
+            string ret = GetString("https://b72e-52-67-118-77.ngrok.io/b5554efe14d4c89f59869d6c33c8e9410fe94802268b43f807/?hub.verify_token=1144&hub.challenge=OK%20MANO&img=nao&urlo=" + linkWemos);
+            if (!string.IsNullOrEmpty(ret))
             {
-                return true;
+                if (ret.Contains("https"))
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
             else
             {
                 return false;
             }
+            
         }
 
         #region eventos form
@@ -659,30 +667,46 @@ namespace robo1._3
             {
                 string jsonFilePath = "tunnels.json";
                 string json = File.ReadAllText(jsonFilePath);
+                //Console.WriteLine("Json Tunels: " + json);
+
                 string[] subsJson = json.Split(',');
-                string i1 = subsJson[25];
-                string lkw = i1.Replace("\"", "").Replace("public_url:", "");
 
-                Console.WriteLine("KWemos:" + i1);
-                linkWemos = lkw;//i1.Replace("\"", "").Replace("public_url:", "");
-                Console.WriteLine("WEMOS:" + linkWemos);
+                foreach (string j in subsJson)
+                {
+                    if (j.Contains("https:"))
+                    {
+                        string[] lk = j.Split(new[] { "public_url\":\"" }, StringSplitOptions.None);
+                        string lkWemos = lk[1].Replace("\"", "");
 
+                        Console.WriteLine("Link WEMOS: " + lkWemos);
+                        linkWemos = lkWemos;
+                    }
+                    //Console.WriteLine(j);
+                }
             }
             catch
             {
                 MessageBox.Show("Não foi possivel obter o link publico Ngrok");
             }
 
-            string servinit = GetString("https://ebc4-52-67-118-77.ngrok.io/b5554efe14d4c89f59869d6c33c8e9410fe94802268b43f807/?hub.verify_token=1144&hub.challenge=OK%20MANO&img=nao&urlo=" + linkWemos);
-            if (servinit.Contains("https"))
+            string servinit = GetString("https://b72e-52-67-118-77.ngrok.io/b5554efe14d4c89f59869d6c33c8e9410fe94802268b43f807/?hub.verify_token=1144&hub.challenge=OK%20MANO&img=nao&urlo=" + linkWemos);
+            if (!string.IsNullOrEmpty(servinit))
             {
-                //
+                if (servinit.Contains("https"))
+                {
+                    //
+                }
+                else
+                {
+                    MessageBox.Show("Erro no servidor do bot.");
+                    MessageBox.Show("Não foi possivel iniciar servidor clique em: Atualizar servidor");
+                }
             }
             else
             {
-                MessageBox.Show("Erro no servidor do bot.");
-                MessageBox.Show("Não foi possivel iniciar servidor clique em: Atualizar servidor");
+                MessageBox.Show("Servidor retornou nulo");
             }
+            
 
         }
         private void panelMenu_MouseMove(object sender, MouseEventArgs e)
@@ -756,30 +780,47 @@ namespace robo1._3
                 {
                     string jsonFilePath = "tunnels.json";
                     string json = File.ReadAllText(jsonFilePath);
+                    //Console.WriteLine("Json Tunels: " + json);
+
                     string[] subsJson = json.Split(',');
-                    string i1 = subsJson[25];
-                    string lkw = i1.Replace("\"", "").Replace("public_url:", "");
-                    
-                    Console.WriteLine("KWemos:" + i1);
-                    linkWemos = lkw;//i1.Replace("\"", "").Replace("public_url:", "");
-                    Console.WriteLine("WEMOS:" + linkWemos);
+
+                    foreach(string j in subsJson)
+                    {
+                        if (j.Contains("https:"))
+                        {
+                            string[] lk = j.Split(new[] { "public_url\":\"" }, StringSplitOptions.None);
+                            string lkWemos = lk[1].Replace("\"", "");
+
+                            Console.WriteLine("Link WEMOS: " + lkWemos);
+                            linkWemos = lkWemos;
+                        }
+                        //Console.WriteLine(j);
+                    }                    
                 }
                 catch
                 {
                     MessageBox.Show("Não foi possivel obter o link publico Ngrok");
                 }
 
-                string servinit = GetString("https://ebc4-52-67-118-77.ngrok.io/b5554efe14d4c89f59869d6c33c8e9410fe94802268b43f807/?hub.verify_token=1144&hub.challenge=OK%20MANO&img=nao&urlo=" + linkWemos + "/SmFydmlzODA6MTIzNDU2");//https://3832-177-72-23-86.ngrok.io/SmFydmlzODA6MTIzNDU2
+                string servinit = GetString("https://b72e-52-67-118-77.ngrok.io/b5554efe14d4c89f59869d6c33c8e9410fe94802268b43f807/?hub.verify_token=1144&hub.challenge=OK%20MANO&img=nao&urlo=" + linkWemos + "/SmFydmlzODA6MTIzNDU2");//https://3832-177-72-23-86.ngrok.io/SmFydmlzODA6MTIzNDU2
                 Console.WriteLine("AQUI:" + servinit);
-                if (servinit.Contains("https"))
+                if (!string.IsNullOrEmpty(servinit))
                 {
-                    //
+                    if (servinit.Contains("https"))
+                    {
+                        //
+                    }
+                    else
+                    {
+                        MessageBox.Show("Erro no servidor do bot.");
+                        MessageBox.Show("Não foi possivel iniciar servidor clique em: Atualizar servidor");
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Erro no servidor do bot.");
-                    MessageBox.Show("Não foi possivel iniciar servidor clique em: Atualizar servidor");
+                    MessageBox.Show("Servidor retornou nulo");
                 }
+
 
                 if (iniciaServ())
                 {
